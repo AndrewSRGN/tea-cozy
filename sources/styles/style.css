@@ -1,0 +1,162 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+
+    text-align: center;
+
+    background-color: black;
+    opacity: 0.9;
+
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+
+    height: 69px;
+    width: 100%;
+
+    border-bottom: 1px solid seashell;
+}
+
+.header__logo {
+    height: 50px;
+}
+
+.header__nav {}
+
+.nav {}
+
+.nav__item {
+    display: inline;
+    margin: 10px;
+}
+
+.nav__link {
+    color: seashell;
+}
+
+/* SECTION */
+.section+.section {
+    margin-top: 30px;
+}
+
+/* SECTION MISSION */
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1200px;
+    height: 700px;
+
+    margin: 0 auto;
+    margin-top: 69px;
+
+    background: url("../images/img-mission-background.jpg");
+}
+
+.mission__banner {
+    width: 100%;
+    background-color: black;
+}
+
+/* SECTION FEATURED TEA */
+.featured-tea {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+
+    width: 1000px;
+
+    margin: 0 auto;
+}
+
+.featured-tea__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-tea__item {
+    margin: 15px;
+}
+
+.featured-tea__img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+
+/* LOCATION */
+.location {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    background: url("../images/img-locations-background.webp");
+
+    margin: 0 auto;
+    padding-top: 100px;
+
+    width: 1200px;
+    height: 500px;
+}
+
+.location__heading {
+    margin-bottom: 15px;
+}
+
+.location__list {
+    display: flex;
+    align-items: center;
+}
+
+.location__item + .location__item {
+    margin-left: 40px;
+}
+
+.location__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 300px;
+    height: 300px;
+
+    background-color: black;
+    opacity: 1;
+}
+
+/* CONTACTS */
+#contacts {
+    margin-top: 0;
+}
+.contacts {
+    height: 200px; 
+    
+    text-align: center;
+}
+
+.contacts__heading {
+    margin-top: 15px;
+}
+
+/* FOOTER */
+.footer {
+    margin-left: 10px;
+    text-align: left;
+}
